@@ -18,6 +18,7 @@ some text
     Illustrator | 8/10
     --------------------
     InDesign    | 8/10
+
 ***
 #### Education:
 * Gubkin University 
