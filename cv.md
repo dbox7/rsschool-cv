@@ -2,7 +2,7 @@
 ### junior frontend | designer
 ***
 #### About me:
-some text
+I'm 25 years old who in searching of myself. I like the phrase: "The beauty will save the World". I think that really so. The beauty of nature inspire people create beutiful environment and improve living conditions. It in its turn make people do a nice deeds. For example, write a beautiful code) That's why I've been designing for a long time. And continue to search fields of activity where I can create something beautiful and useful.
 ***
 #### Skills and Proficiency:
     HTML5, CSS3 | 5/10
@@ -33,5 +33,9 @@ some text
 #### Languages:
 * **Russian** - native
 * **English** - intermediate (B1)
+***
+#### Contacts:
+**Tel:** +7 (985) 752-77-27
+**E-mail:** dbox.insight@gmail.com
 ***
 > Жизнь не основывается на послушании – она основывается на стремлении пройти свой собственный путь
