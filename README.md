@@ -1,1 +1,1 @@
-https://dbox7.github.io/rsschool-cv/
+https://dbox7.github.io/rsschool-cv-hml/
