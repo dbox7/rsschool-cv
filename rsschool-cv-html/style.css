@@ -1,0 +1,266 @@
+body {
+    background-color: #fefae0;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #d4a373;
+}
+
+.normalize {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+
+    margin: 0 auto;
+}
+
+header.container {
+    max-height: 550px;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    border-bottom: 3px #ccd5ae solid;
+    margin-top: 2%;
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    width: 50%;
+    margin-left: 55px;
+}
+
+/* .mainPage img {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+} */
+
+/* .mainPage div {
+    position: absolute;
+    z-index: 1;
+    right: 0; 
+} */
+
+.action {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin: 20px 50px;
+}
+
+.ulNav {
+    position: absolute;
+    z-index: 1;
+    top: 335px;
+    font-size: 20px;
+}
+
+.ulNav>li {
+    margin: 3px;
+}
+
+li>a, a:visited {
+    color: #f3e7c8;
+}
+
+li>a:hover {
+    color: #d4a373;
+}
+
+.textPoint {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.textPoint:first-child {
+    margin: 25px 50px 50px;
+}
+
+.points {
+    width: 52%;
+    margin-left: 20px;
+}
+
+.text {
+    width: 70%; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.mark {
+    width: 150px;
+}
+
+.progress {
+    background-color: black;
+    width: 300px;
+    height: 20px;
+    border-radius: 13px;
+    padding: 3px; 
+}
+
+.progress>div {
+    background-color: #faedcd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 15px 0;
+}
+
+.shell {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 15px 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.mainText {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.especialText {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.skillLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 1em;
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.portfolioBlock {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    border: 1px #faedcd solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 0 20px 20px;
+}
+
+.portfolioBlock:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.portfolioLogo {
+    width: 100%;
+    height: auto;
+}
+
+.blockName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    background: rgba(10,10,10,70%);
+    color: #fefae0;
+    opacity: 0; 
+    transition: ease-in-out 0.2s;
+}
+
+.portfolioBlock:hover .blockName{
+    opacity: 1;
+}
+
+.portfolioContainer {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+
+    width: 100%;
+    margin-top: 10px;
+}
