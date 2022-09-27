@@ -1,1 +1,1 @@
-https://dbox7.github.io/rsschool-cv/rsschool-cv-html
+https://dbox7.github.io/rsschool-cv-html/
